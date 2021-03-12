@@ -51,7 +51,7 @@
                             </a>
                             <div class="collapse" id="addMarkCollapse">
                                 <?php
-                                require_once('add_marks2.php');
+                                require_once('add_marks.php');
                                 ?>
                             </div>
                             <!-- End Of Add Student Collapse Menu -->

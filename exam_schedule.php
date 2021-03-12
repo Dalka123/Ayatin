@@ -29,13 +29,13 @@ require_once('commons/head.php');
                 <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Classes</h3>
+                            <h3>Exam Schedule</h3>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">All Classes</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Add Exam Schedule</li>
                                 </ol>
                             </nav>
                         </div>
@@ -47,16 +47,16 @@ require_once('commons/head.php');
                         <br>
                     <!-- Add Student Collpase Menu -->
                     <a class="btn btn-primary" data-toggle="collapse" href="#addClassCollapse" role="button" aria-expanded="false" aria-controls="addClassCollapse">
-                        Add Class
+                        Add Exam
                     </a>
                     <div class="collapse" id="addClassCollapse">
                         <?php
-                        require_once('add_class.php');
+                        require_once('add_exam_schedule.php');
                         ?>
                     </div>
                     <!-- End Of Add Student Collapse Menu -->
                     <br> <br>
-                            All Classes Data
+                            All Exams Data
                         </div>
                         <div class="card-body">
                             <table class="table table-striped" id="table1">

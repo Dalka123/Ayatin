@@ -48,7 +48,7 @@ require_once('commons/sidebar.php');
                     </a>
                     <div class="collapse" id="addFeesCollapse">
                         <?php
-                        require_once('add_student_payment2php');
+                        require_once('add_student_payment.php');
                         ?>
                     </div>
                     <!-- End Of Add Student Collapse Menu -->

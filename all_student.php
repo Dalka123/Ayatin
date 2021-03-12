@@ -50,7 +50,7 @@
                     </a>
                     <div class="collapse" id="addStudentCollapse">
                         <?php
-                        require_once('addmission_form2.php');
+                        require_once('addmission_form.php');
                         ?>
                     </div>
                     <!-- End Of Add Student Collapse Menu -->
