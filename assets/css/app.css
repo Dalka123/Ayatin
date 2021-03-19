@@ -753,7 +753,7 @@
   top: 0;
   z-index: 10;
   overflow-y: auto;
-  background-color: #fff;
+  background-color: #043150;
   bottom: 0;
   transition: left 0.5s ease-out;
 }
@@ -774,7 +774,7 @@
 .sidebar-wrapper .menu {
   margin-top: 2rem;
   padding: 0 2rem;
-  font-weight: 600;
+  font-weight: 400;
 }
 .sidebar-wrapper .menu .sidebar-title {
   padding: 0 1rem;
@@ -793,17 +793,17 @@
   border-radius: 0.5rem;
   transition: all 0.5s;
   text-decoration: none;
-  color: #25396f;
+  color: white;
 }
 .sidebar-wrapper .menu .sidebar-link i,
 .sidebar-wrapper .menu .sidebar-link svg {
-  color: #7c8db5;
+  color: #FFf;
 }
 .sidebar-wrapper .menu .sidebar-link span {
   margin-left: 1rem;
 }
 .sidebar-wrapper .menu .sidebar-link:hover {
-  background-color: #f0f1f5;
+  background-color: #435EBE;
 }
 .sidebar-wrapper .menu .sidebar-item {
   list-style: none;
@@ -852,7 +852,7 @@
 .sidebar-wrapper .menu .submenu .submenu-item a {
   padding: 0.7rem 2rem;
   display: block;
-  color: #25396f;
+  color: #fff;
   font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.5px;
@@ -1149,6 +1149,7 @@
 #main {
   margin-left: 300px;
   padding: 2rem;
+  padding-top: 0;
 }
 @media screen and (max-width: 1199px) {
   #main {
