@@ -1,57 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   
 <?php
-require_once 'commons/header.php';
+require_once('commons/header.php');
 ?>
-<link rel="stylesheet" href="assets/vendors/simple-datatables/style.css">
+    <link rel="stylesheet" href="assets/vendors/simple-datatables/style.css">
+
 </head>
 
 <body>
     <div id="app">
-        <?php
-require_once 'commons/sidebar.php';
+    <?php
+require_once('commons/sidebar.php');
 ?>
-        <?php
-require_once 'commons/head.php';
+ <?php
+require_once('commons/head.php');
 ?>
         <div id="main">
-            <div class="page-heading11">
-                <!-- <div class="page-title">
+            <header class="mb-3">
+                <a href="#" class="burger-btn d-block d-xl-none">
+                    <i class="bi bi-justify fs-3"></i>
+                </a>
+            </header>
+
+            <div class="page-heading">
+                <div class="page-title">
                     <div class="row">
                         <div class="col-12 col-md-6 order-md-1 order-last">
-                            <h3>Students</h3>
+                            <h3>Exam Schedule</h3>
                         </div>
                         <div class="col-12 col-md-6 order-md-2 order-first">
                             <nav aria-label="breadcrumb" class="breadcrumb-header float-start float-lg-end">
                                 <ol class="breadcrumb">
                                     <li class="breadcrumb-item"><a href="index.html">Dashboard</a></li>
-                                    <li class="breadcrumb-item active" aria-current="page">All Students</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Add Exam Schedule</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
-                </div> -->
+                </div>
                 <section class="section">
-                    <div class="card shadow">
+                <div class="card">
                         <div class="card-header">
-                            All Students Data
-                            <!-- Add Student Collpase Menu -->
-                            <a class="btn btn-primary float-end" data-toggle="collapse" href="#addStudentCollapse"
-                                role="button" aria-expanded="false" aria-controls="addStudentCollapse">
-                                <i class="icon-mid bi bi-plus-circle"></i>
-                                Add Student
-                            </a>
-
-                            <!-- End Of Add Student Collapse Menu -->
-
+                        <br>
+                    <!-- Add Student Collpase Menu -->
+                    <a class="btn btn-primary" data-toggle="collapse" href="#addClassCollapse" role="button" aria-expanded="false" aria-controls="addClassCollapse">
+                        Add Exam
+                    </a>
+                    <div class="collapse" id="addClassCollapse">
+                        <?php
+                        require_once('add_exam_schedule.php');
+                        ?>
+                    </div>
+                    <!-- End Of Add Student Collapse Menu -->
+                    <br> <br>
+                            All Exams Data
                         </div>
                         <div class="card-body">
-                            <div class="collapse" id="addStudentCollapse">
-                                <?php
-require_once 'addmission_form.php';
-?>
-                                <hr>
-                            </div>
-
-                            <table class="mt-3 table table-striped" id="table1">
+                            <table class="table table-striped" id="table1">
                                 <thead>
                                     <tr>
                                         <th>Name</th>
@@ -322,9 +330,9 @@ require_once 'addmission_form.php';
 
     <script src="assets/vendors/simple-datatables/simple-datatables.js"></script>
     <script>
-    // Simple Datatable
-    let table1 = document.querySelector('#table1');
-    let dataTable = new simpleDatatables.DataTable(table1);
+        // Simple Datatable
+        let table1 = document.querySelector('#table1');
+        let dataTable = new simpleDatatables.DataTable(table1);
     </script>
 
     <script src="assets/js/main.js"></script>

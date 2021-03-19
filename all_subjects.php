@@ -51,7 +51,7 @@
                     </a>
                     <div class="collapse" id="addSubjectCollapse">
                         <?php
-                        require_once('add_subject2.php');
+                        require_once('add_subject.php');
                         ?>
                     </div>
                     <!-- End Of Add Student Collapse Menu -->

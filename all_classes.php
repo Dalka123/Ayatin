@@ -51,7 +51,7 @@ require_once('commons/head.php');
                     </a>
                     <div class="collapse" id="addClassCollapse">
                         <?php
-                        require_once('add_class2.php');
+                        require_once('add_class.php');
                         ?>
                     </div>
                     <!-- End Of Add Student Collapse Menu -->
