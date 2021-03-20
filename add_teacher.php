@@ -18,7 +18,7 @@
              </div>
              <fieldset class="form-group">
                  <label for="helperText">Shift</label>
-                 <select class="form-select" id="basicSelect">
+                 <select class="form-select selectpicker" id="basicSelect" multiple data-live-search="true">
                      <option>Morning</option>
                      <option>Afternoon</option>
                      <option>Thor Ragnarok</option>

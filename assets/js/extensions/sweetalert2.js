@@ -16,7 +16,7 @@ document.getElementById('title').addEventListener('click', (e) => {
         'question'
       )
 })
-document.getElementById('success').addEventListener('click', (e) => {
+document.getElementById('submit').addEventListener('click', (e) => {
     Swal.fire({
         icon: "success",
         title: "Success"
