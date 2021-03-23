@@ -29,7 +29,7 @@
 
             <div class="form-group">
 
-                <label for="basicInput">End Datae</label>
+                <label for="basicInput">End Date</label>
                 <input type="date" class="form-control" id="basicInput" > 
             </div>
 

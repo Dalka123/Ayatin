@@ -1,9 +1,22 @@
 <div id="sidebar" class="active">
+    <!-- <div class="sidebar-wrapper active">
+        <div class="sidebar-header">
+            <div class="d-flex justify-content-center">
+                <div class="logo">
+                    <a href="index.php"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                </div>
+                <div class="toggler">
+                    <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
+                </div>
+            </div>
+        </div>
+    </div> -->
     <div class="sidebar-wrapper active">
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
                     <a href="index.php"><img src="assets/images/logo/logo.png" alt="Logo" srcset=""></a>
+                   
                 </div>
                 <div class="toggler">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -100,7 +113,7 @@
                 </li>
                 <li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
-                    <i class="bi bi-person-badge"></i>
+                        <i class="bi bi-person-badge"></i>
                         <span>Employee</span>
                     </a>
                     <ul class="submenu ">
@@ -111,7 +124,7 @@
                 </li>
                 <li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
-                    <i class="bi bi-flag-fill"></i>
+                        <i class="bi bi-flag-fill"></i>
                         <span>Exam Report</span>
                     </a>
                     <ul class="submenu ">
@@ -122,7 +135,7 @@
                 </li>
                 <li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
-                    <i class="bi bi-cash"></i>
+                        <i class="bi bi-cash"></i>
                         <span>Finance Report</span>
                     </a>
                     <ul class="submenu ">
@@ -133,7 +146,7 @@
                 </li>
                 <li class="sidebar-item  has-sub">
                     <a href="#" class='sidebar-link'>
-                    <i class="bi bi-person-bounding-box"></i>
+                        <i class="bi bi-person-bounding-box"></i>
                         <span>User</span>
                     </a>
                     <ul class="submenu ">
