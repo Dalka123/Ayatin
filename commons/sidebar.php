@@ -118,7 +118,7 @@
                     </a>
                     <ul class="submenu ">
                         <li class="submenu-item ">
-                            <a href="#">All Employees</a>
+                            <a href="all_employees.php">All Employees</a>
                         </li>
                     </ul>
                 </li>
