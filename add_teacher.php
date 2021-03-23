@@ -17,11 +17,10 @@
                  <input type="text" id="helperText" class="form-control" placeholder="Address">
              </div>
              <fieldset class="form-group">
-                 <label for="helperText">Shift</label>
-                 <select class="form-select selectpicker" id="basicSelect" multiple data-live-search="true">
+                 <label for="helperText">Gender</label>
+                 <select class="form-select" id="basicSelect">
                      <option>Morning</option>
                      <option>Afternoon</option>
-                     <option>Thor Ragnarok</option>
                  </select>
              </fieldset>
          </div>
@@ -29,9 +28,8 @@
              <fieldset class="form-group">
                  <label for="helperText">Gender</label>
                  <select class="form-select" id="basicSelect">
-                     <option>IT</option>
-                     <option>Blade Runner</option>
-                     <option>Thor Ragnarok</option>
+                     <option>Male</option>
+                     <option>Female</option>
                  </select>
              </fieldset>
              <div class="form-group">
